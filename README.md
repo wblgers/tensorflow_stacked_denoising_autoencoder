@@ -35,8 +35,10 @@ ae = Autoencoder(n_layers=[n_inputs, n_hidden],
 ```
 To visualize the extracted features and  images, check the code in visualize_ae.py.reconstructed
 - Extracted features on MNIST:
+
 ![Alt text](https://github.com/wblgers/tensorflow_stacked_denoising_autoencoder/raw/master/pjt_images/ae_features.png)
 - Reconstructed noisy images after input->encoder->decoder pipeline:
+
 ![Alt text](https://github.com/wblgers/tensorflow_stacked_denoising_autoencoder/raw/master/pjt_images/recover_image_ae.png)
 #### 1.2 denoising autoencoder
 Follow the code sample below to construct a denoising autoencoder:
@@ -59,8 +61,10 @@ ae = Autoencoder(n_layers=[n_inputs, n_hidden],
 
 Test results:
 - Extracted features on MNIST:
+
 ![Alt text](https://github.com/wblgers/tensorflow_stacked_denoising_autoencoder/raw/master/pjt_images/dae_features.png)
 - Reconstructed noisy images after input->encoder->decoder pipeline:
+
 ![Alt text](https://github.com/wblgers/tensorflow_stacked_denoising_autoencoder/raw/master/pjt_images/recover_image_dae.png)
 #### 1.3 sparse autoencoder
 #### 1.4 stacked (denoising) autoencoder
