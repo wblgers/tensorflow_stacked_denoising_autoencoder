@@ -122,4 +122,5 @@ https://github.com/tensorflow/models/tree/master/research/autoencoder/autoencode
 For the theory on autoencoder, sparse autoencoder, please refer to:
 http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/
 
-
+## 3. My blog for this project
+[漫谈autoencoder：降噪自编码器/稀疏自编码器/栈式自编码器（含tensorflow实现）](https://blog.csdn.net/wblgers1234/article/details/81545079)
